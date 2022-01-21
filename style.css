@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  width: 10em;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+input {
+  display: block;
+  width: 80%;
+  margin: 1em auto;
+  padding: 1em;
+  text-align: center;
+}
+
+/* result portion */
+.search-results {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.result-item {
+  margin-bottom: 20px;
+}
+
+.result-title {
+  font-size: 22px;
+}
+
+.result-snippet {
+  font-size: 15px;
+  color: #444;
+}
+
+.result-link {
+  color: #006621;
+  text-decoration: none;
+  display: block;
+  overflow-wrap: break-word;
+}
+
+.result-error {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2em;
+  color: red;
+}
